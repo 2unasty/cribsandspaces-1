@@ -13,14 +13,11 @@
     "webpack": "webpack",
     "precommit": "lint-staged"
   },
-
   "lint-staged": {
     "*.{js,jsx}": [
-   
-    "git add"
+      "git add"
     ]
-    },
-
+  },
   "nyc": {
     "require": [
       "@babel/register"
@@ -78,7 +75,7 @@
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react": "^7.18.3",
     "file-loader": "^4.2.0",
     "husky": "^0.14.3",
     "istanbul": "^0.4.5",
